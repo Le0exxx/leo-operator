@@ -1,0 +1,14 @@
+apiVersion: foundations.le0exxx/v1alpha1
+kind: Metadata
+metadata:
+  labels:
+    app.kubernetes.io/name: metadata
+    app.kubernetes.io/instance: metadata-sample
+    app.kubernetes.io/part-of: leo-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: leo-operator
+  name: metadata-sample
+spec:
+  contact: leo
+  team: platform
+
